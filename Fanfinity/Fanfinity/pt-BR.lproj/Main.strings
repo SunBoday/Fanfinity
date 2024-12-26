@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "08O-dI-FiA"; */
+"08O-dI-FiA.normalTitle" = "Calculate";
+
+/* Class = "UILabel"; text = "Types Of Fan"; ObjectID = "8cc-Af-oWL"; */
+"8cc-Af-oWL.text" = "Types Of Fan";
+
+/* Class = "UITextField"; placeholder = "Sound Pressure Level (in dB)"; ObjectID = "AuU-5B-FGI"; */
+"AuU-5B-FGI.placeholder" = "Sound Pressure Level (in dB)";
+
+/* Class = "UITextField"; placeholder = "Power Consumption (in Watts)"; ObjectID = "BdT-4d-9JW"; */
+"BdT-4d-9JW.placeholder" = "Power Consumption (in Watts)";
+
+/* Class = "UILabel"; text = "Fanfinity"; ObjectID = "ETM-gt-Ahf"; */
+"ETM-gt-Ahf.text" = "Fanfinity";
+
+/* Class = "UITextField"; placeholder = "Enter Distance (in meters)"; ObjectID = "Jlq-iE-sUh"; */
+"Jlq-iE-sUh.placeholder" = "Enter Distance (in meters)";
+
+/* Class = "UILabel"; text = "Fan Noise Calculation"; ObjectID = "KSY-1v-sLp"; */
+"KSY-1v-sLp.text" = "Fan Noise Calculation";
+
+/* Class = "UILabel"; text = "Fan Wallpaper"; ObjectID = "Psr-B4-W1f"; */
+"Psr-B4-W1f.text" = "Fan Wallpaper";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "TnE-1N-dmY"; */
+"TnE-1N-dmY.normalTitle" = "Reset";
+
+/* Class = "UILabel"; text = "Fan Power Consumption"; ObjectID = "XXc-4f-rPr"; */
+"XXc-4f-rPr.text" = "Fan Power Consumption";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "YT2-VR-G83"; */
+"YT2-VR-G83.normalTitle" = "Reset";
+
+/* Class = "UITextField"; placeholder = "Enter Power Factor"; ObjectID = "e2S-15-IiI"; */
+"e2S-15-IiI.placeholder" = "Enter Power Factor";
+
+/* Class = "UITextField"; placeholder = "Enter Duration (in Hours)"; ObjectID = "eCS-6X-wPq"; */
+"eCS-6X-wPq.placeholder" = "Enter Duration (in Hours)";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "khW-y1-93n"; */
+"khW-y1-93n.normalTitle" = "Calculate";

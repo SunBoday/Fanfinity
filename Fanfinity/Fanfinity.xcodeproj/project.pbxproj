@@ -1,0 +1,948 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBC481927352154DB0A58A4C /* Pods_Fanfinity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D11581514328606D3DEF9F8 /* Pods_Fanfinity.framework */; };
+		E926677D2D1CE14A005A0E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926677C2D1CE14A005A0E16 /* AppDelegate.swift */; };
+		E926677F2D1CE14A005A0E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926677E2D1CE14A005A0E16 /* SceneDelegate.swift */; };
+		E92667812D1CE14A005A0E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667802D1CE14A005A0E16 /* ViewController.swift */; };
+		E92667842D1CE14A005A0E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92667822D1CE14A005A0E16 /* Main.storyboard */; };
+		E92667862D1CE14D005A0E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92667852D1CE14D005A0E16 /* Assets.xcassets */; };
+		E92667892D1CE14D005A0E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92667872D1CE14D005A0E16 /* LaunchScreen.storyboard */; };
+		E92667942D1CE14D005A0E16 /* FanfinityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667932D1CE14D005A0E16 /* FanfinityTests.swift */; };
+		E926679E2D1CE14E005A0E16 /* FanfinityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926679D2D1CE14E005A0E16 /* FanfinityUITests.swift */; };
+		E92667A02D1CE14E005A0E16 /* FanfinityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926679F2D1CE14E005A0E16 /* FanfinityUITestsLaunchTests.swift */; };
+		E92667CE2D1CE1E4005A0E16 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = E92667AD2D1CE1E4005A0E16 /* LICENSE.md */; };
+		E92667CF2D1CE1E4005A0E16 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E92667AE2D1CE1E4005A0E16 /* README.md */; };
+		E92667D02D1CE1E4005A0E16 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667B22D1CE1E4005A0E16 /* IQTextView.swift */; };
+		E92667D12D1CE1E4005A0E16 /* IQPlaceholderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667B32D1CE1E4005A0E16 /* IQPlaceholderable.swift */; };
+		E92667D22D1CE1E4005A0E16 /* IQKeyboardManager+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667B42D1CE1E4005A0E16 /* IQKeyboardManager+Internal.swift */; };
+		E92667D32D1CE1E4005A0E16 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667B62D1CE1E4005A0E16 /* IQPreviousNextView.swift */; };
+		E92667D42D1CE1E4005A0E16 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667B72D1CE1E4005A0E16 /* IQTitleBarButtonItem.swift */; };
+		E92667D52D1CE1E4005A0E16 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667B82D1CE1E4005A0E16 /* IQBarButtonItem.swift */; };
+		E92667D62D1CE1E4005A0E16 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667B92D1CE1E4005A0E16 /* IQToolbar.swift */; };
+		E92667D72D1CE1E4005A0E16 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667BA2D1CE1E4005A0E16 /* IQUIView+IQKeyboardToolbar.swift */; };
+		E92667D82D1CE1E4005A0E16 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667BB2D1CE1E4005A0E16 /* IQInvocation.swift */; };
+		E92667D92D1CE1E4005A0E16 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667BC2D1CE1E4005A0E16 /* IQKeyboardManager+UIKeyboardNotification.swift */; };
+		E92667DA2D1CE1E4005A0E16 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667BE2D1CE1E4005A0E16 /* IQKeyboardManagerConstantsInternal.swift */; };
+		E92667DB2D1CE1E4005A0E16 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667BF2D1CE1E4005A0E16 /* IQKeyboardManagerConstants.swift */; };
+		E92667DC2D1CE1E4005A0E16 /* IQKeyboardManager+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667C02D1CE1E4005A0E16 /* IQKeyboardManager+Position.swift */; };
+		E92667DD2D1CE1E4005A0E16 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667C12D1CE1E4005A0E16 /* IQKeyboardReturnKeyHandler.swift */; };
+		E92667DE2D1CE1E4005A0E16 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E92667C22D1CE1E4005A0E16 /* PrivacyInfo.xcprivacy */; };
+		E92667DF2D1CE1E4005A0E16 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667C32D1CE1E4005A0E16 /* IQKeyboardManager.swift */; };
+		E92667E02D1CE1E4005A0E16 /* IQKeyboardManager+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667C42D1CE1E4005A0E16 /* IQKeyboardManager+Debug.swift */; };
+		E92667E12D1CE1E4005A0E16 /* IQKeyboardManager+OrientationNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667C52D1CE1E4005A0E16 /* IQKeyboardManager+OrientationNotification.swift */; };
+		E92667E22D1CE1E4005A0E16 /* IQKeyboardManager+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667C62D1CE1E4005A0E16 /* IQKeyboardManager+Toolbar.swift */; };
+		E92667E32D1CE1E4005A0E16 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667C82D1CE1E4005A0E16 /* IQUIScrollView+Additions.swift */; };
+		E92667E42D1CE1E4005A0E16 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667C92D1CE1E4005A0E16 /* IQUIViewController+Additions.swift */; };
+		E92667E52D1CE1E4005A0E16 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667CA2D1CE1E4005A0E16 /* IQUITextFieldView+Additions.swift */; };
+		E92667E62D1CE1E4005A0E16 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667CB2D1CE1E4005A0E16 /* IQUIView+Hierarchy.swift */; };
+		E92667E72D1CE1E4005A0E16 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667CC2D1CE1E4005A0E16 /* IQNSArray+Sort.swift */; };
+		E92667E82D1CE1E4005A0E16 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667CD2D1CE1E4005A0E16 /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
+		E92667EA2D1CE208005A0E16 /* FanOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92667E92D1CE208005A0E16 /* FanOneVC.swift */; };
+		E9309DD22D1CE3CD0031006D /* FanNoiseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9309DD12D1CE3CD0031006D /* FanNoiseVC.swift */; };
+		E9309DD42D1CE3EF0031006D /* FanPowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9309DD32D1CE3EF0031006D /* FanPowerVC.swift */; };
+		E9309DD62D1CE4060031006D /* FanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9309DD52D1CE4060031006D /* FanVC.swift */; };
+		E9309DD92D1CE42A0031006D /* FanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9309DD72D1CE42A0031006D /* FanCell.swift */; };
+		E9309DDA2D1CE42A0031006D /* FanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9309DD82D1CE42A0031006D /* FanCell.xib */; };
+		E9309DDD2D1CE4760031006D /* FanTypesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9309DDB2D1CE4760031006D /* FanTypesCell.swift */; };
+		E9309DDE2D1CE4760031006D /* FanTypesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9309DDC2D1CE4760031006D /* FanTypesCell.xib */; };
+		E9309DE02D1CE52B0031006D /* FanTypesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9309DDF2D1CE52B0031006D /* FanTypesVC.swift */; };
+		E9309DE42D1D289F0031006D /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = E9309DE32D1D289E0031006D /* UIViewController+Ext.m */; };
+		E9309DE62D1D28B40031006D /* FanPrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9309DE52D1D28B40031006D /* FanPrivacyPolicyVC.swift */; };
+		E9309DE92D1D2A430031006D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9309DE82D1D2A430031006D /* GoogleService-Info.plist */; };
+		E9309DEE2D1D2F430031006D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9309DF02D1D2F430031006D /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E92667902D1CE14D005A0E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92667712D1CE14A005A0E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92667782D1CE14A005A0E16;
+			remoteInfo = Fanfinity;
+		};
+		E926679A2D1CE14E005A0E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92667712D1CE14A005A0E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92667782D1CE14A005A0E16;
+			remoteInfo = Fanfinity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D11581514328606D3DEF9F8 /* Pods_Fanfinity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fanfinity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A004C1F3A7F5B6F966F1DB26 /* Pods-Fanfinity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanfinity.debug.xcconfig"; path = "Target Support Files/Pods-Fanfinity/Pods-Fanfinity.debug.xcconfig"; sourceTree = "<group>"; };
+		B06D0CBC30B821F395FD7F8B /* Pods-Fanfinity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanfinity.release.xcconfig"; path = "Target Support Files/Pods-Fanfinity/Pods-Fanfinity.release.xcconfig"; sourceTree = "<group>"; };
+		E92667792D1CE14A005A0E16 /* Fanfinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanfinity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E926677C2D1CE14A005A0E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E926677E2D1CE14A005A0E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E92667802D1CE14A005A0E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E92667832D1CE14A005A0E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E92667852D1CE14D005A0E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E92667882D1CE14D005A0E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E926678A2D1CE14D005A0E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E926678F2D1CE14D005A0E16 /* FanfinityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanfinityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92667932D1CE14D005A0E16 /* FanfinityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanfinityTests.swift; sourceTree = "<group>"; };
+		E92667992D1CE14E005A0E16 /* FanfinityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanfinityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E926679D2D1CE14E005A0E16 /* FanfinityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanfinityUITests.swift; sourceTree = "<group>"; };
+		E926679F2D1CE14E005A0E16 /* FanfinityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanfinityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E92667AD2D1CE1E4005A0E16 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		E92667AE2D1CE1E4005A0E16 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E92667B22D1CE1E4005A0E16 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		E92667B32D1CE1E4005A0E16 /* IQPlaceholderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPlaceholderable.swift; sourceTree = "<group>"; };
+		E92667B42D1CE1E4005A0E16 /* IQKeyboardManager+Internal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Internal.swift"; sourceTree = "<group>"; };
+		E92667B62D1CE1E4005A0E16 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		E92667B72D1CE1E4005A0E16 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		E92667B82D1CE1E4005A0E16 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		E92667B92D1CE1E4005A0E16 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		E92667BA2D1CE1E4005A0E16 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		E92667BB2D1CE1E4005A0E16 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		E92667BC2D1CE1E4005A0E16 /* IQKeyboardManager+UIKeyboardNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UIKeyboardNotification.swift"; sourceTree = "<group>"; };
+		E92667BE2D1CE1E4005A0E16 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		E92667BF2D1CE1E4005A0E16 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		E92667C02D1CE1E4005A0E16 /* IQKeyboardManager+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Position.swift"; sourceTree = "<group>"; };
+		E92667C12D1CE1E4005A0E16 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		E92667C22D1CE1E4005A0E16 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E92667C32D1CE1E4005A0E16 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		E92667C42D1CE1E4005A0E16 /* IQKeyboardManager+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Debug.swift"; sourceTree = "<group>"; };
+		E92667C52D1CE1E4005A0E16 /* IQKeyboardManager+OrientationNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+OrientationNotification.swift"; sourceTree = "<group>"; };
+		E92667C62D1CE1E4005A0E16 /* IQKeyboardManager+Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Toolbar.swift"; sourceTree = "<group>"; };
+		E92667C82D1CE1E4005A0E16 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E92667C92D1CE1E4005A0E16 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		E92667CA2D1CE1E4005A0E16 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		E92667CB2D1CE1E4005A0E16 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		E92667CC2D1CE1E4005A0E16 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		E92667CD2D1CE1E4005A0E16 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
+		E92667E92D1CE208005A0E16 /* FanOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanOneVC.swift; sourceTree = "<group>"; };
+		E9309DD12D1CE3CD0031006D /* FanNoiseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanNoiseVC.swift; sourceTree = "<group>"; };
+		E9309DD32D1CE3EF0031006D /* FanPowerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanPowerVC.swift; sourceTree = "<group>"; };
+		E9309DD52D1CE4060031006D /* FanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanVC.swift; sourceTree = "<group>"; };
+		E9309DD72D1CE42A0031006D /* FanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanCell.swift; sourceTree = "<group>"; };
+		E9309DD82D1CE42A0031006D /* FanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FanCell.xib; sourceTree = "<group>"; };
+		E9309DDB2D1CE4760031006D /* FanTypesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanTypesCell.swift; sourceTree = "<group>"; };
+		E9309DDC2D1CE4760031006D /* FanTypesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FanTypesCell.xib; sourceTree = "<group>"; };
+		E9309DDF2D1CE52B0031006D /* FanTypesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanTypesVC.swift; sourceTree = "<group>"; };
+		E9309DE12D1D289D0031006D /* Fanfinity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fanfinity-Bridging-Header.h"; sourceTree = "<group>"; };
+		E9309DE22D1D289E0031006D /* UIViewController+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
+		E9309DE32D1D289E0031006D /* UIViewController+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
+		E9309DE52D1D28B40031006D /* FanPrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanPrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		E9309DE72D1D28D00031006D /* Fanfinity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fanfinity.entitlements; sourceTree = "<group>"; };
+		E9309DE82D1D2A430031006D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9309DEA2D1D2F330031006D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		E9309DEB2D1D2F330031006D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E9309DEF2D1D2F430031006D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E9309DF12D1D2F460031006D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E92667762D1CE14A005A0E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC481927352154DB0A58A4C /* Pods_Fanfinity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E926678C2D1CE14D005A0E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92667962D1CE14E005A0E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB10DA7FE835FAA677C1C15A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D11581514328606D3DEF9F8 /* Pods_Fanfinity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E92667702D1CE14A005A0E16 = {
+			isa = PBXGroup;
+			children = (
+				E926677B2D1CE14A005A0E16 /* Fanfinity */,
+				E92667922D1CE14D005A0E16 /* FanfinityTests */,
+				E926679C2D1CE14E005A0E16 /* FanfinityUITests */,
+				E926677A2D1CE14A005A0E16 /* Products */,
+				F535D39CED1F882F484DF110 /* Pods */,
+				AB10DA7FE835FAA677C1C15A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E926677A2D1CE14A005A0E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E92667792D1CE14A005A0E16 /* Fanfinity.app */,
+				E926678F2D1CE14D005A0E16 /* FanfinityTests.xctest */,
+				E92667992D1CE14E005A0E16 /* FanfinityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E926677B2D1CE14A005A0E16 /* Fanfinity */ = {
+			isa = PBXGroup;
+			children = (
+				E9309DE82D1D2A430031006D /* GoogleService-Info.plist */,
+				E9309DE72D1D28D00031006D /* Fanfinity.entitlements */,
+				E92667AC2D1CE1E4005A0E16 /* IQKeyboardManagerSwift */,
+				E926677C2D1CE14A005A0E16 /* AppDelegate.swift */,
+				E926677E2D1CE14A005A0E16 /* SceneDelegate.swift */,
+				E92667802D1CE14A005A0E16 /* ViewController.swift */,
+				E92667E92D1CE208005A0E16 /* FanOneVC.swift */,
+				E9309DD12D1CE3CD0031006D /* FanNoiseVC.swift */,
+				E9309DD32D1CE3EF0031006D /* FanPowerVC.swift */,
+				E9309DDF2D1CE52B0031006D /* FanTypesVC.swift */,
+				E9309DD52D1CE4060031006D /* FanVC.swift */,
+				E9309DD72D1CE42A0031006D /* FanCell.swift */,
+				E9309DD82D1CE42A0031006D /* FanCell.xib */,
+				E9309DDB2D1CE4760031006D /* FanTypesCell.swift */,
+				E9309DDC2D1CE4760031006D /* FanTypesCell.xib */,
+				E9309DE22D1D289E0031006D /* UIViewController+Ext.h */,
+				E9309DE32D1D289E0031006D /* UIViewController+Ext.m */,
+				E9309DE52D1D28B40031006D /* FanPrivacyPolicyVC.swift */,
+				E9309DF02D1D2F430031006D /* Localizable.strings */,
+				E92667822D1CE14A005A0E16 /* Main.storyboard */,
+				E92667852D1CE14D005A0E16 /* Assets.xcassets */,
+				E92667872D1CE14D005A0E16 /* LaunchScreen.storyboard */,
+				E926678A2D1CE14D005A0E16 /* Info.plist */,
+				E9309DE12D1D289D0031006D /* Fanfinity-Bridging-Header.h */,
+			);
+			path = Fanfinity;
+			sourceTree = "<group>";
+		};
+		E92667922D1CE14D005A0E16 /* FanfinityTests */ = {
+			isa = PBXGroup;
+			children = (
+				E92667932D1CE14D005A0E16 /* FanfinityTests.swift */,
+			);
+			path = FanfinityTests;
+			sourceTree = "<group>";
+		};
+		E926679C2D1CE14E005A0E16 /* FanfinityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E926679D2D1CE14E005A0E16 /* FanfinityUITests.swift */,
+				E926679F2D1CE14E005A0E16 /* FanfinityUITestsLaunchTests.swift */,
+			);
+			path = FanfinityUITests;
+			sourceTree = "<group>";
+		};
+		E92667AC2D1CE1E4005A0E16 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E92667AD2D1CE1E4005A0E16 /* LICENSE.md */,
+				E92667AE2D1CE1E4005A0E16 /* README.md */,
+				E92667AF2D1CE1E4005A0E16 /* IQKeyboardManager */,
+				E92667B02D1CE1E4005A0E16 /* IQKeyboardManagerSwift */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		E92667AF2D1CE1E4005A0E16 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		E92667B02D1CE1E4005A0E16 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E92667B12D1CE1E4005A0E16 /* IQTextView */,
+				E92667B42D1CE1E4005A0E16 /* IQKeyboardManager+Internal.swift */,
+				E92667B52D1CE1E4005A0E16 /* IQToolbar */,
+				E92667BC2D1CE1E4005A0E16 /* IQKeyboardManager+UIKeyboardNotification.swift */,
+				E92667BD2D1CE1E4005A0E16 /* Constants */,
+				E92667C02D1CE1E4005A0E16 /* IQKeyboardManager+Position.swift */,
+				E92667C12D1CE1E4005A0E16 /* IQKeyboardReturnKeyHandler.swift */,
+				E92667C22D1CE1E4005A0E16 /* PrivacyInfo.xcprivacy */,
+				E92667C32D1CE1E4005A0E16 /* IQKeyboardManager.swift */,
+				E92667C42D1CE1E4005A0E16 /* IQKeyboardManager+Debug.swift */,
+				E92667C52D1CE1E4005A0E16 /* IQKeyboardManager+OrientationNotification.swift */,
+				E92667C62D1CE1E4005A0E16 /* IQKeyboardManager+Toolbar.swift */,
+				E92667C72D1CE1E4005A0E16 /* Categories */,
+				E92667CD2D1CE1E4005A0E16 /* IQKeyboardManager+UITextFieldViewNotification.swift */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		E92667B12D1CE1E4005A0E16 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E92667B22D1CE1E4005A0E16 /* IQTextView.swift */,
+				E92667B32D1CE1E4005A0E16 /* IQPlaceholderable.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		E92667B52D1CE1E4005A0E16 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E92667B62D1CE1E4005A0E16 /* IQPreviousNextView.swift */,
+				E92667B72D1CE1E4005A0E16 /* IQTitleBarButtonItem.swift */,
+				E92667B82D1CE1E4005A0E16 /* IQBarButtonItem.swift */,
+				E92667B92D1CE1E4005A0E16 /* IQToolbar.swift */,
+				E92667BA2D1CE1E4005A0E16 /* IQUIView+IQKeyboardToolbar.swift */,
+				E92667BB2D1CE1E4005A0E16 /* IQInvocation.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E92667BD2D1CE1E4005A0E16 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E92667BE2D1CE1E4005A0E16 /* IQKeyboardManagerConstantsInternal.swift */,
+				E92667BF2D1CE1E4005A0E16 /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E92667C72D1CE1E4005A0E16 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E92667C82D1CE1E4005A0E16 /* IQUIScrollView+Additions.swift */,
+				E92667C92D1CE1E4005A0E16 /* IQUIViewController+Additions.swift */,
+				E92667CA2D1CE1E4005A0E16 /* IQUITextFieldView+Additions.swift */,
+				E92667CB2D1CE1E4005A0E16 /* IQUIView+Hierarchy.swift */,
+				E92667CC2D1CE1E4005A0E16 /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F535D39CED1F882F484DF110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A004C1F3A7F5B6F966F1DB26 /* Pods-Fanfinity.debug.xcconfig */,
+				B06D0CBC30B821F395FD7F8B /* Pods-Fanfinity.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E92667782D1CE14A005A0E16 /* Fanfinity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92667A32D1CE14E005A0E16 /* Build configuration list for PBXNativeTarget "Fanfinity" */;
+			buildPhases = (
+				B91759B1F2AB0E1B3C2E45DA /* [CP] Check Pods Manifest.lock */,
+				E92667752D1CE14A005A0E16 /* Sources */,
+				E92667762D1CE14A005A0E16 /* Frameworks */,
+				E92667772D1CE14A005A0E16 /* Resources */,
+				54C3E088F7CD0847AFE20F8D /* [CP] Embed Pods Frameworks */,
+				CE31CA698A73FD8C4AC99052 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fanfinity;
+			productName = Fanfinity;
+			productReference = E92667792D1CE14A005A0E16 /* Fanfinity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E926678E2D1CE14D005A0E16 /* FanfinityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92667A62D1CE14E005A0E16 /* Build configuration list for PBXNativeTarget "FanfinityTests" */;
+			buildPhases = (
+				E926678B2D1CE14D005A0E16 /* Sources */,
+				E926678C2D1CE14D005A0E16 /* Frameworks */,
+				E926678D2D1CE14D005A0E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92667912D1CE14D005A0E16 /* PBXTargetDependency */,
+			);
+			name = FanfinityTests;
+			productName = FanfinityTests;
+			productReference = E926678F2D1CE14D005A0E16 /* FanfinityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E92667982D1CE14E005A0E16 /* FanfinityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92667A92D1CE14E005A0E16 /* Build configuration list for PBXNativeTarget "FanfinityUITests" */;
+			buildPhases = (
+				E92667952D1CE14E005A0E16 /* Sources */,
+				E92667962D1CE14E005A0E16 /* Frameworks */,
+				E92667972D1CE14E005A0E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E926679B2D1CE14E005A0E16 /* PBXTargetDependency */,
+			);
+			name = FanfinityUITests;
+			productName = FanfinityUITests;
+			productReference = E92667992D1CE14E005A0E16 /* FanfinityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E92667712D1CE14A005A0E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E92667782D1CE14A005A0E16 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					E926678E2D1CE14D005A0E16 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E92667782D1CE14A005A0E16;
+					};
+					E92667982D1CE14E005A0E16 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E92667782D1CE14A005A0E16;
+					};
+				};
+			};
+			buildConfigurationList = E92667742D1CE14A005A0E16 /* Build configuration list for PBXProject "Fanfinity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = E92667702D1CE14A005A0E16;
+			productRefGroup = E926677A2D1CE14A005A0E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E92667782D1CE14A005A0E16 /* Fanfinity */,
+				E926678E2D1CE14D005A0E16 /* FanfinityTests */,
+				E92667982D1CE14E005A0E16 /* FanfinityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E92667772D1CE14A005A0E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92667DE2D1CE1E4005A0E16 /* PrivacyInfo.xcprivacy in Resources */,
+				E9309DDA2D1CE42A0031006D /* FanCell.xib in Resources */,
+				E9309DE92D1D2A430031006D /* GoogleService-Info.plist in Resources */,
+				E92667CE2D1CE1E4005A0E16 /* LICENSE.md in Resources */,
+				E9309DDE2D1CE4760031006D /* FanTypesCell.xib in Resources */,
+				E9309DEE2D1D2F430031006D /* Localizable.strings in Resources */,
+				E92667892D1CE14D005A0E16 /* LaunchScreen.storyboard in Resources */,
+				E92667CF2D1CE1E4005A0E16 /* README.md in Resources */,
+				E92667862D1CE14D005A0E16 /* Assets.xcassets in Resources */,
+				E92667842D1CE14A005A0E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E926678D2D1CE14D005A0E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92667972D1CE14E005A0E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54C3E088F7CD0847AFE20F8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanfinity/Pods-Fanfinity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanfinity/Pods-Fanfinity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fanfinity/Pods-Fanfinity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91759B1F2AB0E1B3C2E45DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fanfinity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE31CA698A73FD8C4AC99052 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanfinity/Pods-Fanfinity-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanfinity/Pods-Fanfinity-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fanfinity/Pods-Fanfinity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92667752D1CE14A005A0E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92667E82D1CE1E4005A0E16 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */,
+				E92667812D1CE14A005A0E16 /* ViewController.swift in Sources */,
+				E92667DA2D1CE1E4005A0E16 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				E92667DC2D1CE1E4005A0E16 /* IQKeyboardManager+Position.swift in Sources */,
+				E92667E62D1CE1E4005A0E16 /* IQUIView+Hierarchy.swift in Sources */,
+				E92667E72D1CE1E4005A0E16 /* IQNSArray+Sort.swift in Sources */,
+				E92667D42D1CE1E4005A0E16 /* IQTitleBarButtonItem.swift in Sources */,
+				E92667E22D1CE1E4005A0E16 /* IQKeyboardManager+Toolbar.swift in Sources */,
+				E9309DD62D1CE4060031006D /* FanVC.swift in Sources */,
+				E92667D12D1CE1E4005A0E16 /* IQPlaceholderable.swift in Sources */,
+				E9309DE42D1D289F0031006D /* UIViewController+Ext.m in Sources */,
+				E92667D62D1CE1E4005A0E16 /* IQToolbar.swift in Sources */,
+				E92667E02D1CE1E4005A0E16 /* IQKeyboardManager+Debug.swift in Sources */,
+				E92667DF2D1CE1E4005A0E16 /* IQKeyboardManager.swift in Sources */,
+				E9309DD42D1CE3EF0031006D /* FanPowerVC.swift in Sources */,
+				E9309DD22D1CE3CD0031006D /* FanNoiseVC.swift in Sources */,
+				E92667DD2D1CE1E4005A0E16 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				E92667D92D1CE1E4005A0E16 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
+				E92667E32D1CE1E4005A0E16 /* IQUIScrollView+Additions.swift in Sources */,
+				E92667E12D1CE1E4005A0E16 /* IQKeyboardManager+OrientationNotification.swift in Sources */,
+				E92667D52D1CE1E4005A0E16 /* IQBarButtonItem.swift in Sources */,
+				E92667EA2D1CE208005A0E16 /* FanOneVC.swift in Sources */,
+				E92667E52D1CE1E4005A0E16 /* IQUITextFieldView+Additions.swift in Sources */,
+				E92667D32D1CE1E4005A0E16 /* IQPreviousNextView.swift in Sources */,
+				E92667D02D1CE1E4005A0E16 /* IQTextView.swift in Sources */,
+				E926677D2D1CE14A005A0E16 /* AppDelegate.swift in Sources */,
+				E92667E42D1CE1E4005A0E16 /* IQUIViewController+Additions.swift in Sources */,
+				E9309DE62D1D28B40031006D /* FanPrivacyPolicyVC.swift in Sources */,
+				E9309DDD2D1CE4760031006D /* FanTypesCell.swift in Sources */,
+				E92667D72D1CE1E4005A0E16 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				E9309DE02D1CE52B0031006D /* FanTypesVC.swift in Sources */,
+				E92667D82D1CE1E4005A0E16 /* IQInvocation.swift in Sources */,
+				E92667D22D1CE1E4005A0E16 /* IQKeyboardManager+Internal.swift in Sources */,
+				E9309DD92D1CE42A0031006D /* FanCell.swift in Sources */,
+				E92667DB2D1CE1E4005A0E16 /* IQKeyboardManagerConstants.swift in Sources */,
+				E926677F2D1CE14A005A0E16 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E926678B2D1CE14D005A0E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92667942D1CE14D005A0E16 /* FanfinityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92667952D1CE14E005A0E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E926679E2D1CE14E005A0E16 /* FanfinityUITests.swift in Sources */,
+				E92667A02D1CE14E005A0E16 /* FanfinityUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E92667912D1CE14D005A0E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92667782D1CE14A005A0E16 /* Fanfinity */;
+			targetProxy = E92667902D1CE14D005A0E16 /* PBXContainerItemProxy */;
+		};
+		E926679B2D1CE14E005A0E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92667782D1CE14A005A0E16 /* Fanfinity */;
+			targetProxy = E926679A2D1CE14E005A0E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E92667822D1CE14A005A0E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92667832D1CE14A005A0E16 /* Base */,
+				E9309DEA2D1D2F330031006D /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E92667872D1CE14D005A0E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92667882D1CE14D005A0E16 /* Base */,
+				E9309DEB2D1D2F330031006D /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E9309DF02D1D2F430031006D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9309DEF2D1D2F430031006D /* en */,
+				E9309DF12D1D2F460031006D /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E92667A12D1CE14E005A0E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E92667A22D1CE14E005A0E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E92667A42D1CE14E005A0E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A004C1F3A7F5B6F966F1DB26 /* Pods-Fanfinity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Fanfinity/Fanfinity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fanfinity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fanfinity;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fan.Fanfinity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fanfinity/Fanfinity-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E92667A52D1CE14E005A0E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06D0CBC30B821F395FD7F8B /* Pods-Fanfinity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Fanfinity/Fanfinity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fanfinity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fanfinity;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fan.Fanfinity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fanfinity/Fanfinity-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E92667A72D1CE14E005A0E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fan.FanfinityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanfinity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fanfinity";
+			};
+			name = Debug;
+		};
+		E92667A82D1CE14E005A0E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fan.FanfinityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanfinity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fanfinity";
+			};
+			name = Release;
+		};
+		E92667AA2D1CE14E005A0E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fan.FanfinityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fanfinity;
+			};
+			name = Debug;
+		};
+		E92667AB2D1CE14E005A0E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fan.FanfinityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fanfinity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E92667742D1CE14A005A0E16 /* Build configuration list for PBXProject "Fanfinity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92667A12D1CE14E005A0E16 /* Debug */,
+				E92667A22D1CE14E005A0E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92667A32D1CE14E005A0E16 /* Build configuration list for PBXNativeTarget "Fanfinity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92667A42D1CE14E005A0E16 /* Debug */,
+				E92667A52D1CE14E005A0E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92667A62D1CE14E005A0E16 /* Build configuration list for PBXNativeTarget "FanfinityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92667A72D1CE14E005A0E16 /* Debug */,
+				E92667A82D1CE14E005A0E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92667A92D1CE14E005A0E16 /* Build configuration list for PBXNativeTarget "FanfinityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92667AA2D1CE14E005A0E16 /* Debug */,
+				E92667AB2D1CE14E005A0E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E92667712D1CE14A005A0E16 /* Project object */;
+}
